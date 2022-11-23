@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forum</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <!--NavBar Section-->
+        <div class="navbar">
+            <nav class="navigation hide" id="navigation">
+                <span class="close-icon" id="close-icon" onclick="showIconBar()">|||</span>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="">Login</a></li>
+                    <li class="nav-item"><a href="">About</a></li>
+                    <li class="nav-item"><a href="forums.html">Forums</a></li>
+                </ul>
+            </nav>
+            <a class="bar-icon" id="iconBar" onclick="hideIconBar()">|||</a>
+            <div class="brand">Esoteric Order</div>
+        </div>
+        
+        <!--Navigation-->
+        <div class="navigate">
+            <span><a href="forums.html">Esoteric Order Forum Index</a> >> <a href="forums.html">Ingame Community</a> >> <a href="posts-events.html">Events</a></span><a href=""> >> </a></span><a href="">Halloween event</a></span>
+        </div>
+
+        <!--Topic Section-->
+        <div class="topic-container">
+            <!--Original thread-->
+            <div class="head">
+                <div class="authors">Author</div>
+                <div class="content">Topic: random topic (Read 1325 Times)</div>
+            </div>
+
+            <div class="body">
+                <div class="authors">
+                    <div class="username">JOE MAMAeeeeeee</div>
+                    <div>Senior Community Member</div>
+                    <img src="a.jpg" alt="">
+                    <div>Posts: <u>45</u></div>
+                    <div>Points: <u>4586</u></div>
+                </div>
+                <div class="content">
+                    aasdawasfcawefafawf
+                    <br>gffgfgfgfgsadasd
+                    <br><br>
+                    Naasdwdaawdasdwasdasdwasd
+                    <br>
+                    <hr>
+                    Regards Quandle Dingle
+                    <br>
+                    <div class="comment">
+                        <button onclick="showComment()">Comment</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Comment Area-->
+        <div class="comment-area hide" id="comment-area">
+            <textarea name="comment" id="" placeholder="comment here ... "></textarea>
+            <input type="submit" value="submit">
+        </div>
+
+        <!--Comments Section-->
+        <div class="comments-container">
+            <div class="body">
+                <div class="authors">
+                    <div class="username">Me and who</div>
+                    <div>EEEEEEEEEEE</div>
+                    <img src="b.png" alt="">
+                    <div>Posts: <u>455</u></div>
+                    <div>Points: <u>4586</u></div>
+                </div>
+                <div class="content">
+                    Insert post thinng here idk 
+                    <br>i have suici.
+                    <br><br>
+                    asdwasdwa
+                    <br>
+                    <br>
+                    <div class="comment">
+                        <button onclick="showReply()">Reply</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Reply Area-->
+        <div class="comment-area hide" id="reply-area">
+            <textarea name="reply" id="" placeholder="reply here ... "></textarea>
+            <input type="submit" value="submit">
+        </div>
+
+
+        <!--Another Comment With replies-->
+        <div class="comments-container">
+            <div class="body">
+                <div class="authors">
+                    <div class="username">sheesh</div>
+                    <div>e</div>
+                    <img src="c.png" alt="">
+                    <div>Posts: <u>4552</u></div>
+                    <div>Points: <u>4586</u></div>
+                </div>
+                <div class="content">
+                    Just dwasssasas
+                    <br>To see how it looks  wafdawdawdasd
+                    <br><br>
+                    Nothing sadwdwadas
+                    <br>assasa
+                    <br>
+                    <div class="comment">
+                        <button onclick="showReply()">Reply</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Reply Area-->
+        <div class="comment-area hide" id="reply-area">
+            <textarea name="reply" id="" placeholder="reply here ... "></textarea>
+            <input type="submit" value="submit">
+        </div>
+
+        
+
+        <footer>
+            <span>&copy;  XII TKJ 2 Hokking Tular & Samuel Laluyan | All Rights Reserved</span>
+        </footer>
+        <script src="main.js"></script>
+    </body>
+    </html>
